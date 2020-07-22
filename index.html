@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="e">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <style>
+        table {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .bigimage {
+            width: 470px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Chapter#43to48 task#1
+    <a href="#" onclick="alert('Hi')">Link</a> -->
+
+    <!-- Chapter#43to48 task#2
+    <h2>Mobile Phone lookup</h2>
+    <img width="100px" height="200px" style="margin-left: 20px; border: 1px solid lightblue; padding: 10px;"
+        onclick="alert('Thanks for purchasing a phone from us')"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-Gi9ud2cduIrBSFSYFfc-xOPoQBWMf2XIXQ&usqp=CAU"
+        alt="">
+
+    <img style="border: 1px solid lightblue; padding: 10px;" width="200px" height="200px"
+        onclick="alert('Thanks for purchasing a phone from us')"
+        src="https://cdn.homeshopping.pk/product_images/x/683/rgerg__76031_zoom.png" alt="">
+
+    <img style="border: 1px solid lightblue; padding: 10px;" width="200px" height="200px"
+        onclick="alert('Thanks for purchasing a phone from us')"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnXr1f0aip-lLrAFnGWOhV-yu3yrb8JzYhPA&usqp=CAU"
+        alt="">
+
+    <img width="170px" height="200px" style="border: 1px solid lightblue; padding: 10px;"
+        onclick="alert('Thanks for purchasing a phone from us')"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkhOl9OQIEyhDNBU-8Y5_acGzOdfCSs1dIgg&usqp=CAU"
+        alt=""> -->
+
+    <!-- Chapter#43to48 task#3
+    <h3>Index Name Class</h3>
+    <table id="myTable">
+        <tr>
+            <td>0</td>
+            <td>Jhone</td>
+            <td>10</td>
+            <td>
+                <input type="button" value="delete" onclick="document.getElementById('myTable').deleteRow(0)">
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td>
+                <input type="button" value="delete" onclick="document.getElementById('myTable').deleteRow(1)">
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td>
+                <input type="button" value="delete" onclick="document.getElementById('myTable').deleteRow(2)">
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>James</td>
+            <td>8</td>
+            <td>
+                <input type="button" value="delete" onclick="document.getElementById('myTable').deleteRow(3)">
+            </td>
+        </tr>
+    </table> -->
+
+    <!-- Chapter#43to48 task#4
+    <img width="400px" height="450px" src="goku.jpg" alt="" onmouseover="src='vegeta.jpg'" onmouseout="src='goku.jpg'"> -->
+
+    <!-- Chapter#43to48 task#5
+    <p id="click">0 </p>
+    <button onclick="clickMe()">increment</button>
+    <button onclick="clickMee()">decrement</button>   
+var click = 0;
+function clickMe() {
+    click += 1
+    document.getElementById('click').innerHTML = click
+}
+
+var click = 0;
+function clickMee() {
+    click -= 1
+    document.getElementById('click').innerHTML = click
+} -->
+
+
+
+    <!-- chapter#49to52 task#1
+    <form onsubmit="showInput()">
+        <input type="text" id="email">
+        <input type="button" value="submit">
+    </form>
+    function showInput() {
+        var email = document.getElementById('email')
+        alert(email.value)
+        email.value = ""
+    } -->
+
+    <!-- chapter#49to52 task#2
+    <p id="click">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+        it to make a type specimen book. <a href="#" onclick="clickMe()">Click for more</a>
+    </p>
+    function clickMe() {
+        var para = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+        document.getElementById('click').innerHTML = para
+    } -->
+
+
+
+
+    <!-- Chapter53to58
+    <div>
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" width="200px"
+            height="200px" src="1.jpg" alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" width="200px"
+            height="200px" src="2.jpg" alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" width="200px"
+            height="200px" src="3.jpg" alt="">
+        <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img" width="200px"
+            height="200px" src="4.png" alt="">
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal Image</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="bigimage" src="" alt="" id="modalImage" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+    <!-- chapter58to67 -->
+    <!-- <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content">
+            <label for="first-name">First Name</label><input type="text" id="first-name" /><label for="last-name">Last
+                Name</label><input type="text" id="last-name" /><label for="email">Email</label><input type="text"
+                id="email" />
+        </div>
+        <div id="main-content" class="content">
+            <p class="render"> First Name : Alex</p>
+            <p class="render" id="lastName">Last Name: Bank</p>
+            <p class="render"> Email : alexbank@example.com</p>
+            <p class="render"> Country : Pakistan </p>
+            <p class="render"> contact : +92 300 1234567</p>
+        </div>
+    </div> -->
+    <script src="app.js"></script>
+    <!-- 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
